@@ -1,0 +1,446 @@
+// modal 1  
+// modal 1  
+// modal 1  
+
+#modal-container-1 {
+    position: fixed;
+    inset: 0;
+    display: none;
+    /* افتراضياً مخفي */
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    /* التعتيم */
+    z-index: 9999;
+}
+
+
+/* أنيميشن خفيفة */
+@keyframes fadeIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+
+#modal-container-1.show {
+    display: flex;
+}
+
+.modal-1 {
+    background-color: white;
+    padding: 25px;
+    width: 80%;
+    border-radius: $bor-rad-20;
+
+    .grid-modal {
+        display: grid;
+
+        @include media-up(md) {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+    }
+
+    .left-modal {
+        .location {
+            i {
+                color: blue;
+                padding-right: 10px;
+            }
+
+            font-size: 17px;
+
+            @include media-up(md) {
+                font-size: 22px;
+            }
+        }
+
+        .prise {
+            font-size: 17px;
+
+            @include media-up(md) {
+                font-size: 22px;
+            }
+        }
+
+        .details {
+            font-size: 17px;
+
+            @include media-up(md) {
+                font-size: 22px;
+            }
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 20px;
+            letter-spacing: 1px;
+            word-spacing: 4px;
+            @include media-up(md) {
+                font-size: 15px;
+            }
+        }
+
+        .btn {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+        }
+    }
+
+    .right-modal {
+        img {
+            width: 100%;
+            border-radius: $bor-rad-20;
+            margin-top: 20px;
+            @include media-up(md) {
+                margin-top: 0px;
+            }
+        }
+    }
+}
+
+
+
+// modal 2
+// modal 2
+// modal 2
+
+#modal-container-2 {
+    position: fixed;
+    inset: 0;
+    display: none;
+    /* افتراضياً مخفي */
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    /* التعتيم */
+    z-index: 9999;
+}
+
+
+/* أنيميشن خفيفة */
+@keyframes fadeIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+
+#modal-container-2.show {
+    display: flex;
+}
+
+.modal-2 {
+    background-color: white;
+    padding: 25px;
+    width: 80%;
+    border-radius: $bor-rad-20;
+
+    .grid-modal {
+        display: grid;
+
+        @include media-up(md) {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+    }
+
+    .left-modal {
+        .location {
+            i {
+                color: blue;
+                padding-right: 10px;
+            }
+
+            font-size: 17px;
+
+            @include media-up(md) {
+                font-size: 22px;
+            }
+        }
+
+        .prise {
+            font-size: 17px;
+
+            @include media-up(md) {
+                font-size: 22px;
+            }
+        }
+
+        .details {
+            font-size: 17px;
+
+            @include media-up(md) {
+                font-size: 22px;
+            }
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 20px;
+            letter-spacing: 1px;
+            word-spacing: 4px;
+            @include media-up(md) {
+                font-size: 15px;
+            }
+        }
+
+        .btn {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+        }
+    }
+
+    .right-modal {
+        img {
+            width: 100%;
+            border-radius: $bor-rad-20;
+            margin-top: 20px;
+            @include media-up(md) {
+                margin-top: 0px;
+            }
+        }
+    }
+}
+
+
+
+// modal 3 
+// modal 3 
+// modal 3 
+
+#modal-container-3 {
+    position: fixed;
+    inset: 0;
+    display: none;
+    /* افتراضياً مخفي */
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    /* التعتيم */
+    z-index: 9999;
+}
+
+/* أنيميشن خفيفة */
+@keyframes fadeIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+
+#modal-container-3.show {
+    display: flex;
+}
+
+.modal-3 {
+    background-color: white;
+    padding: 25px;
+    width: 80%;
+    border-radius: $bor-rad-20;
+
+    .grid-modal {
+        display: grid;
+
+        @include media-up(md) {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+    }
+
+    .left-modal {
+        .location {
+            i {
+                color: blue;
+                padding-right: 10px;
+            }
+
+            font-size: 17px;
+
+            @include media-up(md) {
+                font-size: 22px;
+            }
+        }
+
+        .prise {
+            font-size: 17px;
+
+            @include media-up(md) {
+                font-size: 22px;
+            }
+        }
+
+        .details {
+            font-size: 17px;
+
+            @include media-up(md) {
+                font-size: 22px;
+            }
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 20px;
+            letter-spacing: 1px;
+            word-spacing: 4px;
+            @include media-up(md) {
+                font-size: 15px;
+            }
+        }
+
+        .btn {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+        }
+    }
+
+    .right-modal {
+        img {
+            width: 100%;
+            border-radius: $bor-rad-20;
+            margin-top: 20px;
+            @include media-up(md) {
+                margin-top: 0px;
+            }
+        }
+    }
+}
+
+
+
+
+// modal 4
+// modal 4
+// modal 4
+
+
+
+#modal-container-4 {
+    position: fixed;
+    inset: 0;
+    display: none;
+    /* افتراضياً مخفي */
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    /* التعتيم */
+    z-index: 9999;
+}
+
+/* أنيميشن خفيفة */
+@keyframes fadeIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+
+#modal-container-4.show {
+    display: flex;
+}
+
+.modal-4 {
+    background-color: white;
+    padding: 25px;
+    width: 80%;
+    border-radius: $bor-rad-20;
+
+    .grid-modal {
+        display: grid;
+
+        @include media-up(md) {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+    }
+
+    .left-modal {
+        .location {
+            i {
+                color: blue;
+                padding-right: 10px;
+            }
+
+            font-size: 17px;
+
+            @include media-up(md) {
+                font-size: 22px;
+            }
+        }
+
+        .prise {
+            font-size: 17px;
+
+            @include media-up(md) {
+                font-size: 22px;
+            }
+        }
+
+        .details {
+            font-size: 17px;
+
+            @include media-up(md) {
+                font-size: 22px;
+            }
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 20px;
+            letter-spacing: 1px;
+            word-spacing: 4px;
+            @include media-up(md) {
+                font-size: 15px;
+            }
+        }
+
+        .btn {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+        }
+    }
+
+    .right-modal {
+        img {
+            width: 100%;
+            border-radius: $bor-rad-20;
+            margin-top: 20px;
+            @include media-up(md) {
+                margin-top: 0px;
+            }
+        }
+    }
+}

@@ -1,0 +1,109 @@
+header {
+    background-color: $white-color;
+    height: 60px;
+    @include flex();
+
+    nav {
+        @include flex();
+
+        img {
+            width: 70px;
+
+            @include media-up(md) {
+                width: 100px;
+            }
+        }
+
+        ul {
+            list-style: none;
+            display: none;
+
+            @include media-up(md) {
+                @include flex(center);
+                gap: 30px;
+            }
+
+            li {
+                font-family: cairo !important;
+
+                a {
+                    text-decoration: none;
+                    font-weight: $main-font-weight;
+
+                    font-size: $second-font-size;
+
+                    @include media-up(lg) {
+                        font-size: $main-font-size;
+                    }
+
+                    position: relative;
+
+                    &::after {
+                        content: ' ';
+                        position: absolute;
+                        width: 0;
+                        height: 2px;
+                        bottom: 0;
+                        left: 0;
+                        background-color: $blue-color;
+                        transition: 0.3s;
+                    }
+
+                    &:hover::after {
+                        width: 100%;
+                    }
+                }
+
+
+            }
+        }
+
+        .icons {
+            @include flex(center);
+            gap: 5px;
+
+            @include media-up(md) {
+                gap: 10px;
+            }
+
+            @include media-up(lg) {
+                gap: 20px;
+            }
+
+            display: none;
+
+            @include media-up(md) {
+                display: flex;
+            }
+
+            i {
+                @include media-up(md) {
+                    width: 30px;
+                    height: 30px;
+                    font-size: 24px;
+                    border-radius: 50%;
+                }
+
+                transition: 0.3s;
+                @include flex(center);
+                overflow: hidden;
+
+                &:hover {
+                    color: $blue-color;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .mobile-bars {
+            display: flex;
+            cursor: pointer;
+            @include media-up(md) {
+                display: none;
+            }
+
+            font-size: $main-font-size;
+            font-weight: $main-font-weight;
+        }
+    }
+}

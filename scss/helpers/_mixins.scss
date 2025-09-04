@@ -1,0 +1,24 @@
+
+@mixin container {
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 15px;
+
+  @each $breakpoint, $width in $container-widths {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+      max-width: $width;
+    }
+  }
+}
+
+@mixin media-up ($breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}
+
+@mixin flex($justify-content: space-between , $align-items: center) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}

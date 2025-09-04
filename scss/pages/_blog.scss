@@ -1,0 +1,177 @@
+.hero-blog {
+    height: calc(600px - 60px);
+    background-image: url('../../assets/images/blog-background-hero.webp');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.508);
+    }
+
+    .content {
+        position: relative;
+
+        h1 {
+            color: white;
+            font-size: 25px;
+            padding-top: 175px;
+            text-align: center;
+
+
+            @include media-up(md) {
+                padding-top: 180px;
+            }
+
+            word-spacing: 5px;
+            letter-spacing: 1px;
+
+            @include media-up(md) {
+                font-size: 35px;
+            }
+
+            @include media-up(lg) {
+                font-size: 40px;
+                padding-top: 200px;
+            }
+        }
+
+        p {
+            color: white;
+            font-size: $second-font-size;
+            text-align: center;
+
+            @include media-up(md) {
+                font-size: $main-font-size;
+            }
+
+            line-height: 25px;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+            margin-top: $mar-top-20;
+        }
+    }
+}
+
+.Articles {
+    margin-top: 50px;
+    
+
+    .art-2 {
+        margin-top: 50px;
+    }
+
+    .Article {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        background-color: $white-color;
+        padding: 20px;
+        border-radius: $bor-rad-20;
+
+        @include media-up(md) {
+            padding: 20px 50px;
+        }
+
+        h2 {
+            color: black;
+            font-size: 25px;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+
+            @include media-up(md) {
+                font-size: 35px;
+            }
+
+            @include media-up(lg) {
+                font-size: 40px;
+            }
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-top: 20px;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+
+            @include media-up(md) {
+                font-size: 25px;
+            }
+
+            @include media-up(lg) {
+                font-size: 30px;
+            }
+        }
+
+        p {
+            font-size: $second-font-size;
+            color: rgba(0, 0, 0, 0.446);
+
+            @include media-up(md) {
+                font-size: $main-font-size;
+            }
+
+            line-height: 25px;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+            margin-top: $mar-top-20;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 20px;
+
+            li {
+                font-size: $second-font-size;
+                color: rgba(0, 0, 0, 0.446);
+
+                @include media-up(md) {
+                    font-size: $main-font-size;
+                }
+
+                word-spacing: 5px;
+                letter-spacing: 1px;
+                line-height: 25px;
+
+                i {
+                    color: $blue-color;
+                }
+            }
+        }
+    }
+
+    .images {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        margin-top: 50px;
+        background-color: $white-color;
+        border-radius: $bor-rad-20;
+        padding: 20px;
+
+        @include media-up(md) {
+            display: grid;
+            grid-template-columns: repeat(2 , 1fr);
+            gap: 20px;
+            padding: 20px 50px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: $bor-rad-20;
+        }
+
+        .image-2 {
+            margin-top: 20px;
+            @include media-up(md) {
+                margin-top: 0;
+            }
+        }
+    }
+}

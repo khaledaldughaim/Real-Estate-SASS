@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Estate | Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css" />
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="scss/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <a href="/"><img src="assets/images/logo.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="survices-product.html">Real Estate</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact-about.html">About The Company </a></li>
+                <li><a href="contact-about.html">Contact Us </a></li>
+            </ul>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <i class="fa-regular fa-chart-bar mobile-bars" id="mobile-bars"></i>
+        </nav>
+    </header>
+
+
+    <!-- mobile-menu -->
+    <aside id="aside">
+        <div class="mobile-menu">
+            <a href="/"><img src="assets/images/logo.png" class="logo" alt=""></a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Real Estate</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">About The Company</a></li>
+                <li><a href="">Contact Us </a></li>
+            </ul>
+            <form action="">
+                <input type="text">
+            </form>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="cta">
+                <button class="btn-green">Contact Us </button>
+                <button class="btn-green">More</button>
+            </div>
+        </div>
+    </aside>
+
+
+    <!-- hero -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-info container">
+            <h1>Bawabati Real Estate Company</h1>
+            <p>In the fast-paced world of real estate, my real estate portal is your first destination to explore the
+                best opportunities. We offer a comprehensive range of residential and commercial properties, from
+                stylish apartments to promising investment lands. With our easy and reliable platform, we put in your
+                hands everything you need to make an informed decision. We believe that finding the perfect property
+                should be a smooth and productive experience. Your real estate is in one place, and Your
+                Future Starts Here</p>
+
+            <div class="search">
+                <input type="text" class="search-input" placeholder="Enter a community, city or state">
+                <input type="submit" value="search" class="search-submit">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About-the-company -->
+    <section class="container">
+        <h1 class="About-the-company">About the company</h1>
+        <div class="about">
+            <div class="left-about">
+                <h1>About bawabati real estate company</h1>
+                <p>A company specializing in marketing and real estate management. It acts as a link between owners and
+                    those wishing to sell, buy or rent real estate, be it residential apartments, or commercial real
+                    estate.
+                    The company is considered as a broker that helps clients to complete their real estate transactions
+                    easily and safely, while providing the necessary advice to ensure that the right decisions are made
+                </p>
+                <ul>
+                    <li><i class="fa-solid fa-circle-check"></i> Facilitate the purchase and sale processes</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Property management</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Extensive experience in the real estate market</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Transparency and reliability</li>
+                </ul>
+                <div class="btn-green">more about us</div>
+            </div>
+            <div class="right-about">
+                <img src="assets/images/about company.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services -->
+    <section class="container">
+        <div class="Services">
+            <h1>Available properties</h1>
+            <p>We have many properties around the world, such as America, Germany, and others, and we have chosen the
+                best for you.</p>
+
+            <div class="products">
+
+
+                <div class="product">
+                    <img src="assets/images/product-1.webp" alt="">
+                    <h2>1,500,000.00$</h2>
+                    <button class="btn-green" id="open-modal-1">Click for more details</button>
+                </div>
+
+
+                <div class="product prod-2">
+                    <img src="assets/images/product-2.jpg" alt="">
+                    <h2>2,000,000.00$</h2>
+                    <button class="btn-green" id="open-modal-2">Click for more details</button>
+                </div>
+
+
+                <div class="product prod-3">
+                    <img src="assets/images/product-3.jpg" alt="">
+                    <h2>2,700,000.00$</h2>
+                    <button class="btn-green" id="open-modal-3">Click for more details</button>
+                </div>
+
+
+                <div class="product prod-4">
+                    <img src="assets/images/product-4.jpg" alt="">
+                    <h2>3,200,000.00$</h2>
+                    <button class="btn-green" id="open-modal-4">Click for more details</button>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- modal-product -->
+    <section class="modal-product">
+
+
+        <div class="container-modal-1" id="modal-container-1">
+            <div class="modal-1">
+                <div class="grid-modal">
+                    <div class="left-modal">
+                        <h2 class="location"><i class="fa-solid fa-location-dot"></i> New York</h2>
+                        <h2 class="prise">Prise : 1,500,000.00$</h2>
+                        <h2 class="details">Details : 2 bathroom , 5 room , 1 kitchen</h2>
+                        <p>A charming red brick house in the heart of New York City, combining classic warmth and the
+                            charm of nature. It is located in a picturesque private garden, surrounded by lush greenery
+                            that offers a quiet oasis in the city center. The house is characterized by its elegant
+                            arched entrance and an upper balcony, which makes it a unique haven that embodies the
+                            elegance of the city and the tranquility of nature</p>
+                        <div class="btn">
+                            <div class="btn-green"><a href="survices-product.html">more details</a></div>
+                            <button id="close-modal-1" class="btn-green">close</button>
+                        </div>
+                    </div>
+                    <div class="right-modal">
+                        <img src="assets/images/product-1.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-modal-2" id="modal-container-2">
+            <div class="modal-2">
+                <div class="grid-modal">
+                    <div class="left-modal">
+                        <h2 class="location"><i class="fa-solid fa-location-dot"></i> Germany</h2>
+                        <h2 class="prise">Prise : 2,000,000.00$</h2>
+                        <h2 class="details">Details : 4 bathroom , 7 room , 2 kitchen</h2>
+                        <p>A luxurious and modern villa in the heart of Germany, featuring classic architectural beauty
+                            with modern touches. Surrounded by a carefully designed green garden, it has an elegant
+                            wooden swimming pool and a spacious terrace, ideal for soaking up the sun. This property
+                            embodies luxury and Privacy, offering a refined lifestyle in one of the most
+                            prestigious German regions</p>
+                        <div class="btn">
+                            <div class="btn-green"><a href="survices-product.html">more details</a></div>
+                            <button id="close-modal-2" class="btn-green">close</button>
+                        </div>
+                    </div>
+                    <div class="right-modal">
+                        <img src="assets/images/product-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-modal-3" id="modal-container-3">
+            <div class="modal-3">
+                <div class="grid-modal">
+                    <div class="left-modal">
+                        <h2 class="location"><i class="fa-solid fa-location-dot"></i> Istanbul</h2>
+                        <h2 class="prise">Prise : 2,700,000.00$</h2>
+                        <h2 class="details">Details : 3 bathroom , 4 room , 2 kitchen</h2>
+                        <p>A unique architectural villa in the heart of Istanbul, combining modern design and the use of
+                            natural materials. This house is characterized by its innovative style, where large glass
+                            walls allow natural light to enter and offer panoramic views of the private garden. This
+                            property represents a luxurious retreat that combines the elegance of design and the beauty
+                            of nature, making it the perfect choice for those looking for tranquility and luxury</p>
+                        <div class="btn">
+                            <div class="btn-green"><a href="survices-product.html">more details</a></div>
+                            <button id="close-modal-3" class="btn-green">close</button>
+                        </div>
+                    </div>
+                    <div class="right-modal">
+                        <img src="assets/images/product-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-modal-4" id="modal-container-4">
+            <div class="modal-4">
+                <div class="grid-modal">
+                    <div class="left-modal">
+                        <h2 class="location"><i class="fa-solid fa-location-dot"></i> Hamburg</h2>
+                        <h2 class="prise">Prise : 3,200,000.00$</h2>
+                        <h2 class="details">Details : 2 bathroom , 6 room , 3 kitchen</h2>
+                        <p>A modern and luxurious villa in the German city of Hamburg, combining elegance and comfort in
+                            a unique architectural design. The house is surrounded by a spacious green garden with a
+                            private swimming pool, providing an ideal space for relaxation and entertainment. This
+                            property is an ideal retreat for those looking for a quiet and privileged lifestyle in the
+                            heart of the city</p>
+                        <div class="btn">
+                            <div class="btn-green"><a href="survices-product.html">more details</a></div>
+                            <button id="close-modal-4" class="btn-green">close</button>
+                        </div>
+                    </div>
+                    <div class="right-modal">
+                        <img src="assets/images/product-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- gallary -->
+    <section class="container">
+        <h1 class="Business-Gallery">Business Gallery</h1>
+        <div class="all-images-gallary">
+
+
+            <div class="image">
+                <a href="assets/images/gallary-furniture-1.jpg" data-fancybox="gallery">
+                    <img src="assets/images/gallary-furniture-1.jpg" alt="">
+                </a>
+            </div>
+
+
+            <div class="image">
+                <a href="assets/images/gallary-estate-1.jpg" data-fancybox="gallery">
+                    <img src="assets/images/gallary-estate-1.jpg" alt="">
+                </a>
+            </div>
+
+
+            <div class="image">
+                <a href="assets/images/gallary-furniture-2.jpg" data-fancybox="gallery">
+                    <img src="assets/images/gallary-furniture-2.jpg" alt="">
+                </a>
+            </div>
+
+
+            <div class="image">
+                <a href="assets/images/gallary-estate-2.webp" data-fancybox="gallery">
+                    <img src="assets/images/gallary-estate-2.webp" alt="">
+                </a>
+            </div>
+
+
+            <div class="image">
+                <a href="assets/images/gallary-furniture-3.webp" data-fancybox="gallery">
+                    <img src="assets/images/gallary-furniture-3.webp" alt="">
+                </a>
+            </div>
+
+
+            <div class="image">
+                <a href="assets/images/gallary-estate-3.jpg" data-fancybox="gallery">
+                    <img src="assets/images/gallary-estate-3.jpg" alt="">
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Customer-Reviews -->
+    <section class="container">
+        <h1 class="Customer-Reviews">Customer Reviews</h1>
+        <div class="testimonials">
+
+
+            <div class="testi-1">
+                <div class="img-crop-bac"></div>
+                <h1>Ivan Peterson</h1>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>The best real estate experience ever. High professionalism and amazing results</p>
+            </div>
+
+
+            <div class="testi-2">
+                <div class="img-crop-bac"></div>
+                <h1>Liam Jones</h1>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Innovative real estate solutions and customer service that exceeds expectations</p>
+            </div>
+
+
+            <div class="testi-3">
+                <div class="img-crop-bac"></div>
+                <h1>Olivia Clark</h1>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>I found my perfect home thanks to them. Fast handling and unparalleled professionalism</p>
+            </div>
+
+
+            <div class="testi-4">
+                <div class="img-crop-bac"></div>
+                <h1>Ben Carter</h1>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Their treatment inspires confidence. The best real estate partner I found</p>
+            </div>
+
+
+            <div class="testi-5">
+                <div class="img-crop-bac"></div>
+                <h1>Claire Hansen</h1>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>They have made the property search process fun and easy. Unforgettable service</p>
+            </div>
+
+
+            <div class="testi-6">
+                <div class="img-crop-bac"></div>
+                <h1>Sophia Martin</h1>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>I discovered my perfect home thanks to their amazing team. Professionalism and confidence</p>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <!-- latest-news -->
+    <div class="container">
+        <h1 class="latest-news">latest News</h1>
+        <div class="blogs">
+
+
+
+            <a href="blog.html">
+                <div class="blog-img-1">
+                </div>
+            </a>
+
+            <a href="blog.html">
+                <div class="blog-info">
+                    <p class="title-blog">#first-#blog</p>
+                    <h1>Meg Estate</h1>
+                    <p class="desc-blog">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In nostrum magnam non
+                        aut
+                        harum ut eligendi
+                        temporibus nobis iure incidunt earum,</p>
+                    <button class="btn-green">read more</button>
+                </div>
+            </a>
+
+
+            <a href="blog.html">
+                <div class="blog-img-2">
+                </div>
+            </a>
+
+            <a href="blog.html">
+                <div class="blog-info">
+                    <p class="title-blog">#second-#blog</p>
+                    <h1>Pred Soate</h1>
+                    <p class="desc-blog">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In nostrum magnam non
+                        aut
+                        harum ut eligendi
+                        temporibus nobis iure incidunt earum,</p>
+                    <button class="btn-green">read more</button>
+                </div>
+            </a>
+
+
+
+
+            <a href="blog.html">
+                <div class="blog-img-3">
+                </div>
+            </a>
+
+
+            <a href="blog.html">
+                <div class="blog-info">
+                    <p class="title-blog">#third-#blog</p>
+                    <h1>Prad Dsate Andes</h1>
+                    <p class="desc-blog">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In nostrum magnam non
+                        aut
+                        harum ut eligendi
+                        temporibus nobis iure incidunt earum,</p>
+                    <button class="btn-green">read more</button>
+                </div>
+            </a>
+
+
+            <a href="blog.html">
+                <div class="blog-img-4">
+                </div>
+            </a>
+
+
+            <a href="blog.html">
+                <div class="blog-info">
+                    <p class="title-blog">#four-#blog</p>
+                    <h1>Blog Estate</h1>
+                    <p class="desc-blog">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In nostrum magnam non
+                        aut
+                        harum ut eligendi
+                        temporibus nobis iure incidunt earum,</p>
+                    <button class="btn-green">read more</button>
+                </div>
+            </a>
+
+
+            <a href="blog.html">
+                <div class="blog-info exeption-blog">
+                    <p class="title-blog">#five-#blog</p>
+                    <h1>Brog Fleay Morme</h1>
+                    <p class="desc-blog">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In nostrum magnam non
+                        aut
+                        harum ut eligendi
+                        temporibus nobis iure incidunt earum,</p>
+                    <button class="btn-green">read more</button>
+                </div>
+            </a>
+
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="grid-footer">
+                <div class="grid-section-footer-1">
+                    <a href="/"><img src="assets/images/logo.png" alt=""></a>
+                    <h1>Bawabati Real Estate Company</h1>
+                    <p>In the fast-paced world of real estate, my real estate portal is your first destination to
+                        explore
+                        the
+                        best opportunities.</p>
+                </div>
+                <div class="grid-section-footer-2">
+                    <h1>The most important links</h1>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact-about.html">About The Company </a></li>
+                        <li><a href="contact-about.html">Contact Us </a></li>
+                    </ul>
+                </div>
+                <div class="grid-section-footer-3">
+                    <h1>Contact us</h1>
+                    <ul>
+                        <li><i class="fa-brands fa-whatsapp"></i> 00 306 998 154 020</li>
+                        <li><i class="fa-brands fa-instagram"></i> khldstwfl</li>
+                        <li><i class="fa-brands fa-linkedin"></i> khaled al dughaim</li>
+                        <li><i class="fa-brands fa-facebook-f"></i> khaled al dughaim</li>
+                    </ul>
+                </div>
+                <div class="grid-section-footer-4">
+                    <h1>Newsletter</h1>
+                    <p>Subscribe to the newsletter to receive all the latest news</p>
+                    <div class="input">
+                        <input type="email" placeholder="Enter Email">
+                        <input type="submit" value="Join" class="btn-green">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

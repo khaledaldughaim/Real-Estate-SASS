@@ -1,0 +1,164 @@
+footer {
+    margin-top: 50px;
+    background-color: $white-color;
+    padding: 50px 0px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+    .grid-footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 10px;
+
+
+        .grid-section-footer-1 {
+            img {
+                width: 75px;
+            }
+
+            h1 {
+                font-size: 18px;
+
+                @include media-up(md) {
+                    font-size: 20px;
+                }
+            }
+
+            p {
+                padding-top: 10px;
+                font-size: 13px;
+
+                @include media-up(md) {
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: rgba(0, 0, 0, 0.557);
+                }
+            }
+        }
+
+        .grid-section-footer-2 {
+            margin-top: 20px;
+            @include media-up(md) {
+                margin-top: 0px;
+            }
+            h1 {
+                font-size: 18px;
+
+                @include media-up(md) {
+                    font-size: 20px;
+                }
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                margin-top: 10px;
+
+                li {
+                    a {
+                        transition: 0.3s;
+                        font-size: 13px;
+
+                        @include media-up(md) {
+                            font-size: 15px;
+                            color: rgba(0, 0, 0, 0.557);
+                        }
+
+                        &:hover {
+                            color: $blue-color;
+                        }
+                    }
+                }
+            }
+        }
+
+        .grid-section-footer-3 {
+            margin-top: 20px;
+            @include media-up(lg) {
+                margin-top: 0px;
+            }
+
+            h1 {
+                font-size: 18px;
+
+                @include media-up(md) {
+                    font-size: 20px;
+                }
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                margin-top: 10px;
+
+                li {
+                    color: rgba(0, 0, 0, 0.557);
+                    transition: 0.3s;
+                    width: fit-content;
+
+                    i {
+                        padding-right: 7px;
+                    }
+
+                    &:hover  {
+                        color: $blue-color
+                    }
+                }
+            }
+        }
+
+        .grid-section-footer-4 {
+            margin-top: 20px;
+            @include media-up(lg) {
+                margin-top: 0px;
+            }
+            
+            h1 {
+                font-size: 18px;
+
+                @include media-up(md) {
+                    font-size: 20px;
+                }
+            }
+
+            p {
+                padding-top: 10px;
+                font-size: 13px;
+
+                @include media-up(md) {
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: rgba(0, 0, 0, 0.557);
+                }
+            }
+
+            .input {
+                margin-top: 10px;
+                display: flex;
+                width: 80%;
+                height: 30px;
+                border: 1px solid rgba(0, 0, 0, 0.557);
+                overflow: hidden;
+                border-radius: $bor-rad-20;
+                background-color: #eee;
+
+                input:nth-of-type(1) {
+                    flex-grow: 1;
+                    border: none;
+                    padding: 0 10px;
+                    background-color: #eee;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+                input:nth-of-type(2) {
+                    flex-grow: 2;
+                    border: none;
+                }
+            }
+        }
+    }
+}

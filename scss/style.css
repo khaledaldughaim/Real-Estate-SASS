@@ -661,7 +661,7 @@ footer .grid-footer .grid-section-footer-4 .input input:nth-of-type(2) {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-image: url("../../assets/images/client-face-1.avif");
+  background-image: url("../assets/images/client-face-1.avif");
   background-position: center;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.301);
@@ -705,7 +705,7 @@ footer .grid-footer .grid-section-footer-4 .input input:nth-of-type(2) {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-image: url("../../assets/images/client-face-2.jpg");
+  background-image: url("../assets/images/client-face-2.jpg");
   background-position: center;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.301);
@@ -749,7 +749,7 @@ footer .grid-footer .grid-section-footer-4 .input input:nth-of-type(2) {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-image: url("../../assets/images/client-face-3.avif");
+  background-image: url("../assets/images/client-face-3.avif");
   background-position: center;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.301);
@@ -793,7 +793,7 @@ footer .grid-footer .grid-section-footer-4 .input input:nth-of-type(2) {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-image: url("../../assets/images/client-face-4.webp");
+  background-image: url("../assets/images/client-face-4.webp");
   background-position: center;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.301);
@@ -837,7 +837,7 @@ footer .grid-footer .grid-section-footer-4 .input input:nth-of-type(2) {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-image: url("../../assets/images/client-face-5.jpg");
+  background-image: url("../assets/images/client-face-5.jpg");
   background-position: center;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.301);
@@ -881,7 +881,7 @@ footer .grid-footer .grid-section-footer-4 .input input:nth-of-type(2) {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-image: url("../../assets/images/client-face-6.webp");
+  background-image: url("../assets/images/client-face-6.webp");
   background-position: center;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.301);
@@ -954,7 +954,7 @@ footer .grid-footer .grid-section-footer-4 .input input:nth-of-type(2) {
 }
 .blogs .blog-img-1 {
   overflow: hidden;
-  background-image: url("../../assets/images/blog-house-1.jpg");
+  background-image: url("../assets/images/blog-house-1.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 20px;
@@ -968,7 +968,7 @@ footer .grid-footer .grid-section-footer-4 .input input:nth-of-type(2) {
 }
 .blogs .blog-img-2 {
   overflow: hidden;
-  background-image: url("../../assets/images/blog-house-2.jpg");
+  background-image: url("../assets/images/blog-house-2.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 20px;
@@ -982,7 +982,7 @@ footer .grid-footer .grid-section-footer-4 .input input:nth-of-type(2) {
 }
 .blogs .blog-img-3 {
   overflow: hidden;
-  background-image: url("../../assets/images/blog-house-3.jpg");
+  background-image: url("../assets/images/blog-house-3.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 20px;
@@ -996,7 +996,7 @@ footer .grid-footer .grid-section-footer-4 .input input:nth-of-type(2) {
 }
 .blogs .blog-img-4 {
   overflow: hidden;
-  background-image: url("../../assets/images/blog-house-4.jpg");
+  background-image: url("../assets/images/blog-house-4.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 20px;
@@ -1092,7 +1092,7 @@ footer .grid-footer .grid-section-footer-4 .input input:nth-of-type(2) {
 
 .hero-survices {
   height: 540px;
-  background-image: url("../../assets/images/background-estate-survices-6.jpg");
+  background-image: url("../assets/images/background-estate-survices-6.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -1505,7 +1505,7 @@ footer .grid-footer .grid-section-footer-4 .input input:nth-of-type(2) {
 
 .hero-blog {
   height: 540px;
-  background-image: url("../../assets/images/blog-background-hero.webp");
+  background-image: url("../assets/images/blog-background-hero.webp");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -1677,7 +1677,7 @@ footer .grid-footer .grid-section-footer-4 .input input:nth-of-type(2) {
 
 .hero-about-contact {
   height: 540px;
-  background-image: url("../../assets/images/about-contact-2jpg.jpg");
+  background-image: url("../assets/images/about-contact-2jpg.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
